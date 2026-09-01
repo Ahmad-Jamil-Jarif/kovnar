@@ -1,4 +1,4 @@
-# Atelier Kovnar
+# Kovnar
 
 > "The space we inhabit is a reflection of the pauses we take between our thoughts." — *The Kovnar Manifesto*
 
