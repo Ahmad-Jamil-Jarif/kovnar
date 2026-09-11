@@ -80,3 +80,35 @@ To test the curation features:
    - Curatorial narration & price updates
    - Gallery image url updates
    - Archiving/deleting objects directly from the collection grid
+
+## 🖼️ Project Gallery
+
+<figure>
+  <img src="./picture/bag%20option.png" alt="Bag Option" width="800"/>
+  <figcaption>Figure 2: Bag Option preview</figcaption>
+</figure>
+
+<figure>
+  <img src="./picture/bottom.png" alt="Bottom" width="800"/>
+  <figcaption>Figure 3: Bottom view</figcaption>
+</figure>
+
+<figure>
+  <img src="./picture/collection.png" alt="Collection" width="800"/>
+  <figcaption>Figure 4: Collection view</figcaption>
+</figure>
+
+<figure>
+  <img src="./picture/contact.png" alt="Contact" width="800"/>
+  <figcaption>Figure 5: Contact section</figcaption>
+</figure>
+
+<figure>
+  <img src="./picture/delivary%20progress.png" alt="Delivery Progress" width="800"/>
+  <figcaption>Figure 6: Delivery progress</figcaption>
+</figure>
+
+<figure>
+  <img src="./picture/landing%20page.png" alt="Landing Page" width="800"/>
+  <figcaption>Figure 7: Landing Page preview</figcaption>
+</figure>
