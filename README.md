@@ -107,8 +107,3 @@ To test the curation features:
   <img src="./picture/delivary%20progress.png" alt="Delivery Progress" width="800"/>
   <figcaption>Figure 6: Delivery progress</figcaption>
 </figure>
-
-<figure>
-  <img src="./picture/landing%20page.png" alt="Landing Page" width="800"/>
-  <figcaption>Figure 7: Landing Page preview</figcaption>
-</figure>
