@@ -6,6 +6,13 @@
 
 ---
 
+## 📸 Project Preview
+
+<figure>
+  <img src="./picture/landing%20page.png" alt="Landing Page Preview" width="800"/>
+  <figcaption>Figure 1: Landing Page Preview of Kovnar exhibition.</figcaption>
+</figure>
+
 ## ✦ Key Features
 
 - **Curated Digital Exhibition**: A beautiful, fluid grid displaying handcrafted art pieces categorised into Vessels, Lighting, Textiles, and Objects.
