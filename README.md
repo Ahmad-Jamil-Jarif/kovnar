@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/ATELIER-KOVNAR-384b32?style=for-the-badge" alt="Atelier Kovnar" />
+  <img src="https://img.shields.io/badge/KOVNAR-384b32?style=for-the-badge" alt="Kovnar" />
   <img src="https://img.shields.io/badge/Curated-Objects%20for%20Thoughtful%20Spaces-8b7355?style=for-the-badge" alt="Curated objects for thoughtful spaces" />
 </p>
 
-<h1 align="center">Atelier Kovnar</h1>
+<h1 align="center">Kovnar</h1>
 <p align="center">A considered digital storefront for furniture, lighting, and home objects.</p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## Overview
 
-Atelier Kovnar presents a curated collection of furniture, lighting, and decor through an editorial-style shopping experience. Visitors can browse products, view details, manage a cart, and explore bespoke commissions and studio information.
+Kovnar presents a curated collection of furniture, lighting, and decor through an editorial-style shopping experience. Visitors can browse products, view details, manage a cart, and explore bespoke commissions and studio information.
 
 | Section | What it offers |
 | :--- | :--- |
@@ -46,32 +46,32 @@ Screenshots of the application:
 
 ### Landing page
 <p align="center">
-  <img src="./picture/landing%20page.png" width="800" alt="Atelier Kovnar landing page" />
+  <img src="./picture/landing-page.png" width="800" alt="Kovnar landing page" />
 </p>
 
 ### Collection
 <p align="center">
-  <img src="./picture/collection.png" width="800" alt="Atelier Kovnar collection page" />
+  <img src="./picture/collection.png" width="800" alt="Kovnar collection page" />
 </p>
 
 ### Bag option
 <p align="center">
-  <img src="./picture/bag%20option.png" width="800" alt="Atelier Kovnar bag option" />
+  <img src="./picture/bag-option.png" width="800" alt="Kovnar bag option" />
 </p>
 
 ### Delivery progress
 <p align="center">
-  <img src="./picture/delivary%20progress.png" width="800" alt="Atelier Kovnar delivery progress" />
+  <img src="./picture/delivary-progress.png" width="800" alt="Kovnar delivery progress" />
 </p>
 
 ### Contact
 <p align="center">
-  <img src="./picture/contact.png" width="800" alt="Atelier Kovnar contact page" />
+  <img src="./picture/contact.png" width="800" alt="Kovnar contact page" />
 </p>
 
 ### Bottom section
 <p align="center">
-  <img src="./picture/bottom.png" width="800" alt="Atelier Kovnar bottom section" />
+  <img src="./picture/bottom.png" width="800" alt="Kovnar bottom section" />
 </p>
 
 ## Technology
