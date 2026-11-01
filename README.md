@@ -1,146 +1,114 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/ATELIER-KOVNAR-384b32?style=for-the-badge" alt="Atelier Kovnar" />
-  <img src="https://img.shields.io/badge/Design-Curated%20Living-8b7355?style=for-the-badge" alt="Curated living" />
-</p>
+# Kovnar
 
-<h1 align="center">Atelier Kovnar</h1>
-<h3 align="center">Considered objects for thoughtful spaces</h3>
+> "The space we inhabit is a reflection of the pauses we take between our thoughts." — *The Kovnar Manifesto*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5.8" />
-  <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 6" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
-  <img src="https://img.shields.io/badge/Motion-12-000000?style=flat-square" alt="Motion 12" />
-</p>
+**Atelier Kovnar** is a premium, minimalist digital exhibition and catalog showcasing handcrafted architectural objects, vessels, lighting, and textiles. Designed with rich, luxurious aesthetics, smooth interactions, and a curated gallery layout, Kovnar provides a premium experience for design enthusiasts and curators.
 
 ---
 
-## Overview
+## 📸 Project Preview
 
-**Atelier Kovnar** is a design-led storefront and digital exhibition for considered furniture, lighting, and home objects. The experience pairs an editorial gallery with product details, a shopping cart, bespoke commission concepts, and studio information in a calm, minimal interface.
+<figure>
+  <img src="./picture/landing%20page.png" alt="Landing Page Preview" width="800"/>
+  <figcaption>Figure 1: Landing Page Preview of Kovnar exhibition.</figcaption>
+</figure>
 
-| Area | Experience | Highlights |
-| :--- | :--- | :--- |
-| **Home** | Editorial introduction to the studio | Hero, philosophy, featured objects |
-| **Collection** | Browse the object catalog | Product categories, imagery, prices |
-| **Product details** | Explore an individual piece | Materials, descriptions, add-to-cart |
-| **Cart & checkout** | Review selected pieces | Quantity controls, order summary, checkout screen |
-| **Bespoke** | Explore a custom commission | Category, material, dimensions, finish and budget controls |
-| **Studio** | Learn about the practice | Materials, sustainability, contact, shipping and returns |
-| **Studio tools** | Curate the product catalog | Add, edit, and remove products; browser-local persistence |
+## ✦ Key Features
 
-## Architecture
+- **Curated Digital Exhibition**: A beautiful, fluid grid displaying handcrafted art pieces categorised into Vessels, Lighting, Textiles, and Objects.
+- **Bespoke Commissions Interface**: A fully interactive commission tool that allows clients to specify materials, finishes, dimensions, and upload reference files under custom budgets.
+- **Master Studio Portal**: Live inline catalog curation. Access the admin view via the **Unlock Studio** link to edit, archive, or list new artisanal creations dynamically (Passcode: `kovnar`).
+- **Seamless Cart & Checkout**: A premium flyout cart drawer and structured checkout flow built for an immersive retail experience.
+- **Rich Micro-animations**: Powered by Motion to bring the aesthetic elements to life with organic, smooth transitions.
 
-Kovnar is a client-side React application. Vite serves the app during development and creates the production frontend build.
+---
 
-```text
-Browser
-  └─ React + React Router
-       ├─ Home, collection, product and information pages
-       ├─ Cart context → cart drawer and checkout page
-       └─ Admin context → product catalog in localStorage
-```
+## 🛠 Technology Stack
 
-The catalog starts with local sample data. Studio catalog edits are saved in the current browser's `localStorage`; the cart and checkout are frontend experiences and are not connected to a payment or order-processing backend.
+- **Framework**: [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite 6](https://vite.dev/) (Pre-configured for lightning-fast HMR)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) via `@tailwindcss/vite`
+- **Animations**: [Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router v7](https://reactrouter.com/)
 
-## Features
+---
 
-- **Curated catalog:** browse seating, tables, lighting, and decor with product imagery and material details.
-- **Product pages:** open an individual object and add it to the cart.
-- **Cart drawer:** adjust item quantities, remove items, and review the current subtotal.
-- **Bespoke commission concept:** explore object types, materials, dimensions, finishes, and a budget control.
-- **Studio pages:** read about materials and sustainability, or find contact, shipping, and returns information.
-- **Catalog curation:** use the studio access prompt to add, update, and remove catalog items; changes persist in browser storage.
-- **Responsive, animated presentation:** React Router navigation, Tailwind CSS styling, Motion transitions, and Lucide icons.
+## 🚀 Getting Started
 
-> **Studio access note:** the current passcodes (`kovnar` and `admin`) are demo-only and are checked in client-side code. This is not secure authentication and should not be used to protect production data.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-## Project Gallery
+### Installation
 
-The screenshots below show the application UI:
+1. **Clone the repository and install dependencies**:
+   ```bash
+   npm install
+   ```
 
-### Landing page
-<p align="center">
-  <img src="./picture/landing%20page.png" width="800" alt="Atelier Kovnar landing page" />
-</p>
+2. **Configure environment variables (Optional)**:
+   Create a `.env.local` file based on `.env.example`:
+   ```bash
+   cp .env.example .env.local
+   ```
 
-### Collection
-<p align="center">
-  <img src="./picture/collection.png" width="800" alt="Atelier Kovnar product collection" />
-</p>
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
+   The application will be running at [http://localhost:3000/](http://localhost:3000/).
 
-### Bag option
-<p align="center">
-  <img src="./picture/bag%20option.png" width="800" alt="Atelier Kovnar bag and cart option" />
-</p>
+---
 
-### Delivery progress
-<p align="center">
-  <img src="./picture/delivary%20progress.png" width="800" alt="Atelier Kovnar delivery progress view" />
-</p>
+## 📐 Available Scripts
 
-### Contact
-<p align="center">
-  <img src="./picture/contact.png" width="800" alt="Atelier Kovnar contact page" />
-</p>
+- `npm run dev`: Starts the local development server on port 3000.
+- `npm run build`: Generates the optimized production build of the website in the `dist/` directory.
+- `npm run preview`: Previews the production build locally.
+- `npm run clean`: Cleans up local build outputs.
+- `npm run lint`: Runs Typechecking over the TypeScript codebase.
 
-### Bottom section
-<p align="center">
-  <img src="./picture/bottom.png" width="800" alt="Atelier Kovnar page footer and bottom section" />
-</p>
+---
 
-## Quickstart
+## 🔒 Master Studio Portal Access
 
-### Requirements
+To test the curation features:
+1. Scroll down to the website footer or menu and click **Unlock Studio**.
+2. Enter the studio passcode: **`kovnar`**
+3. Once authenticated, you will unlock immediate **curator actions**:
+   - Inline creation of new objects
+   - Curatorial narration & price updates
+   - Gallery image url updates
+   - Archiving/deleting objects directly from the collection grid
 
-- [Node.js](https://nodejs.org/)
-- npm
+## 🖼️ Project Gallery
 
-### Install and run
+<figure>
+  <img src="./picture/bag%20option.png" alt="Bag Option" width="800"/>
+  <figcaption>Figure 2: Bag Option preview</figcaption>
+</figure>
 
-```bash
-npm install
-npm run dev
-```
+<figure>
+  <img src="./picture/bottom.png" alt="Bottom" width="800"/>
+  <figcaption>Figure 3: Bottom view</figcaption>
+</figure>
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+<figure>
+  <img src="./picture/collection.png" alt="Collection" width="800"/>
+  <figcaption>Figure 4: Collection view</figcaption>
+</figure>
 
-## Scripts
+<figure>
+  <img src="./picture/contact.png" alt="Contact" width="800"/>
+  <figcaption>Figure 5: Contact section</figcaption>
+</figure>
 
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Start the Vite development server on port 3000 |
-| `npm run build` | Create the production build in `dist/` |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run the TypeScript check (`tsc --noEmit`) |
-| `npm run clean` | Remove the local `dist/` build output |
+<figure>
+  <img src="./picture/delivary%20progress.png" alt="Delivery Progress" width="800"/>
+  <figcaption>Figure 6: Delivery progress</figcaption>
+</figure>
 
-## Repository Structure
-
-```text
-kovnar/
-├── picture/                  # Screenshots used in the Project Gallery
-├── src/
-│   ├── components/           # Navigation, hero, product grid, cart and studio UI
-│   ├── lib/                  # Product data and cart/admin state
-│   ├── pages/                # Collection, product, checkout and studio pages
-│   ├── App.tsx               # Routes and shared application layout
-│   ├── index.css              # Global styles and Tailwind entry
-│   └── main.tsx               # React application entry point
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
-## Technology
-
-| Layer | Technologies |
-| :--- | :--- |
-| **UI** | React 19, TypeScript 5.8 |
-| **Build and development** | Vite 6 |
-| **Styling** | Tailwind CSS 4 |
-| **Animation** | Motion |
-| **Icons** | Lucide React |
-| **Routing** | React Router 7 |
+<figure>
+  <img src="./picture/landing%20page.png" alt="Landing Page" width="800"/>
+  <figcaption>Figure 7: Landing Page preview</figcaption>
+</figure>
